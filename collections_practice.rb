@@ -31,3 +31,14 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(array)
+  collection = []
+  foundstring = ""
+  array.each do |n|
+    foundstring = n
+    foundstring[2] = "$"
+    collection << foundstring
+  end
+  collection
+end
