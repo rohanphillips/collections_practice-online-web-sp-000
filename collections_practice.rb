@@ -46,3 +46,7 @@ end
 def find_a(array)
   array.select! {|n| n.start_with? "a"}
 end
+
+def sum_array(array)
+  array.inject{|sum, n| sum + n}
+end
