@@ -14,10 +14,11 @@ end
 def swap_elements(array)
   x = 1
   y = 2
-  myx = array[1]
-  myy = array[2]
+  myx = array[x]
+  myy = array[y]
   array[y] = myx
   array[x] = myy
+  array
 end
 
 def swap_elements_from_to(array, x, y)
