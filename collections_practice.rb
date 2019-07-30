@@ -10,7 +10,17 @@ end
 def sort_array_char_count(array)
   array.sort{|x,y| x.length <=> y.length}
 end
-def swap_elements(array, x, y)
+
+def swap_elements(array)
+  x = 1
+  y = 2
+  myx = array[1]
+  myy = array[2]
+  array[y] = myx
+  array[x] = myy
+end
+
+def swap_elements_from_to(array, x, y)
   myx = array[x]
   myy = array[y]
   array[y] = myx
