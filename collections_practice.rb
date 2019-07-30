@@ -27,3 +27,7 @@ def swap_elements_from_to(array, x, y)
   array[y] = myx
   array[x] = myy
 end
+
+def reverse_array(array)
+  array.reverse
+end
